@@ -1,0 +1,33 @@
+{
+  "name": "utask-server",
+  "version": "1.0.0",
+  "description": "utask server — Express + Socket.IO (chat)",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "lint": "eslint . --fix",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1",
+    "socket.io": "^4.8.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.1",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2"
+  }
+}
